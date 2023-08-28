@@ -5,10 +5,6 @@ generator client {
   provider = "prisma-client-js"
 }
 
-generator erd {
-  provider = "prisma-erd-generator"
-}
-
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
@@ -45,7 +41,6 @@ model Day {
   @@unique([date])
   @@map("days")
 }
-
 
 model DayHabit {
   id String @id @default(uuid())

@@ -1,15 +1,17 @@
-import fastify from "fastify";
+import Fastify from "fastify";
 import cors from '@fastify/cors'
 import { appRoutes } from "./routes";
 
-const app = fastify()
+
+const app = Fastify()
 
 
 app.register(cors)
 app.register(appRoutes)
 
+
 app.listen({
-    port: 3333,
+    port:3333
 }).then(() => {
-    console.log('Deus no comando e o servidor rodando')
+    console.log('executando')
 })
