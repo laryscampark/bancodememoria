@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+button.btn {
+    background-color:#6f56d0;
+}
+
+.bg {
+    background-color: #7796DE;
+}
+
+.navbar  {
+    background-color:#91A9E1;
+}
+
+footer {
+    background-color:#91A9E1;
+    color: white;
+}
+
+.row {
+    background
+}
+
+.desenvolvedoras{
+    position:relative;
+    top:-99px;
+    background-color:#aab9fc;
+}
+
