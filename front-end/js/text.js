@@ -1,1 +1,0 @@
-document.querySelector('textarea').value = "Primeira linha\nSegunda linha";
