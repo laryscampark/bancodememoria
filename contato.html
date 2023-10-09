@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de memórias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/front-end/css/contato.css">
+    <script src="/front-end/js/text.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg  py-3">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informações sobre o Alzheimer
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=sNg54_B8UBE"
+                                    target="_blank">Alzheimer na Periferia - Documentario</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://g1.globo.com/fantastico/noticia/2023/06/15/reportagem-especial-vai-mostrar-os-mais-recentes-estudos-sobre-o-alzheimer.ghtml"
+                                    target="_blank">Estudos recentes sobre o Alzheimer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://radiojornal.ne10.uol.com.br/noticia/tecnologia/2023/06/15529134-filmes-sobre-alzheimer-netflix-4-filmes-e-series-sobre-alzheimer-para-assistir-na-netflix.html"
+                                    target="_blank">Filmes sobre o Alzheimer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg text-light p-5 text-center text-sm-start" id="home">
+        <div class="container py-5">
+            <div class="d-sm-flex align-items-center justify-content-between py-5">
+                <div>
+                    <h1>Entre em contato</h1>
+                    <p class="lead my-4">
+                        Caso precise de alguma informação pode entrar em contato conosco através do formulário e
+                        retornamos assim que possivel.<br>
+                    </p>
+                    <button class="btn btn-primary btn-lg">Contato</button>
+                </div>
+                <a href="#">
+                    <img src="/front-end/img/Icontato.svg" class="img-fluid" width="1000"
+                        alt="Imagem ilustrativa de uma pessoa atendente o telefone">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="caixa-secao-conteudo">
+        <h2 class="titulo">
+            Para entrar em contato
+        </h2>
+        <form style="text-align: center; width: 30vw; margin-left: 35vw;" class="contact-form"
+            action="https://formsubmit.co/ajax/laryssa.silva.182si@aluno.faeterj-prc.faetec.rj.gov.br" method="POST">
+            <label for="nome">Nome</label>
+            <input type="nome" name="nome" id="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" rows="5" cols="33" required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <style>
+                textarea {
+                    width: 300px;
+                    height: 150px;
+                    white-space: pre-wrap;       /* CSS3 */
+                    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+                    overflow-wrap: break-word;   /* Modern browsers */
+                }
+            </style>
+        </form>
+    </section>
+    <footer>
+        <div class="rodape">Desenvolvedora responsavel&nbsp;<a href="https://www.linkedin.com/in/laryssape%C3%A7anha/"
+                target="_blank">Laryssa</a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
