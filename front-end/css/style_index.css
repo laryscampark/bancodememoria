@@ -20,15 +20,28 @@ button.btn {
     background-color:#91A9E1;
 }
 
-footer {
-    background-color:#91A9E1;
-    color: white;
+.page_footer {
+    background-color:#FFF;
+    color: black;
 }
 
 
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape_index {
+    position:relative;
+    bottom:-16px;
+    background-color:#7796DE;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
 .desenvolvedoras{
     position:relative;
-    top:-99px;
     background-color:#aab9fc;
 }
 
