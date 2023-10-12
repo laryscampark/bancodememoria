@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./front-end/img/cuidador.png" type="image/x-icon">
+    <link rel="stylesheet" href="./front-end/css/cadastroPaciente_Cuidador.css">
+    <title>Cadastro Cuidador</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./front-end/img/cuidador.png" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre Cuidador</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome_paciente">Primeiro Nome</label>
+                        <input id="nome_paciente" type="text" name="nome_paciente" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="data_nascimento">Data Nascimento</label>
+                        <input id="data_nascimento" type="date" name="data_nascimento" placeholder="Informe sua data de nascimento" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">CPF</label>
+                        <input id="text" type="text" name="text" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="mailto" name="email" placeholder="teste@mail.com" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="endereco">Endereco</label>
+                        <input id="endereco" type="text" placeholder="Rua nova paz" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6 style="text-align: center;">Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
