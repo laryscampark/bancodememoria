@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./front-end/img/cerebro.png" type="image/x-icon">
     <link rel="stylesheet" href="./front-end/css/cadastroPaciente.css">
-    <title>Formulário</title>
+    <title>Cadastro Paciente</title>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <form action="#">
                 <div class="form-header">
                     <div class="title">
-                        <h1>Cadastre-se</h1>
+                        <h1>Cadastre Paciente</h1>
                     </div>
                     <div class="login-button">
                         <button><a href="#">Entrar</a></button>
@@ -36,8 +37,13 @@
                         <input id="data_nascimento" type="date" name="data_nascimento" placeholder="Informe sua data de nascimento" required>
                     </div>
                     <div class="input-box">
+                        <label for="email">CPF</label>
+                        <input id="text" type="text" name="text" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
                         <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <input id="email" type="mailto" name="email" placeholder="teste@mail.com" required>
                     </div>
 
                     <div class="input-box">
@@ -45,22 +51,17 @@
                         <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
-                    <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
-                    </div>
-
 
                     <div class="input-box">
-                        <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        <label for="endereco">Endereco</label>
+                        <input id="endereco" type="text" placeholder="Rua nova paz" required>
                     </div>
 
                 </div>
 
                 <div class="gender-inputs">
                     <div class="gender-title">
-                        <h6>Gênero</h6>
+                        <h6 style="text-align: center;">Gênero</h6>
                     </div>
 
                     <div class="gender-group">
