@@ -12,8 +12,12 @@ button.btn {
     background-color:#6f56d0;
 }
 
+div, ajuster-cor {
+    color: black;
+  }
+
 .bg {
-    background-color: #7796DE;
+    background-color: #b3c5ef52;
 }
 
 .navbar  {
@@ -34,13 +38,13 @@ footer a {
 .rodape_index {
     position:relative;
     bottom:-16px;
-    background-color:#7796DE;
+    background-color:#799ae5;
     text-align: center;
     color: #fff;
     padding: 30px;
 }
 
-.desenvolvedoras{
+.desenvolvedora{
     position:relative;
     background-color:#aab9fc;
 }

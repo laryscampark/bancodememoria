@@ -1,9 +1,5 @@
 const adm = [
     {
-        login: 'cath',
-        pass: 'cath'
-    },
-    {
         login: 'Lary',
         pass: 'Lary'
     }
