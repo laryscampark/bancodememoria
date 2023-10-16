@@ -8,6 +8,21 @@
     font-family: 'Roboto';
 }
 
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  align-items: justify;
+  color: white;
+}
+
+.contact-form, input {
+  border-radius: 5px
+}
+
 body {
     background: #91A9E1;
 }
@@ -15,8 +30,6 @@ body {
 button.btn {
     background-color:#6f56d0;
 }
-
-
 
 .bg {
     background-color: #7796DE;
@@ -31,11 +44,21 @@ button.btn {
     background-color:#91A9E1;
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
     position:relative;
-    bottom:-16px;
     background-color:#7796DE;
     color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .retorno_agradecimento {
