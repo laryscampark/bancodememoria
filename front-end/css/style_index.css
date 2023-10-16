@@ -16,8 +16,31 @@
     text-align: justify;
 }
 
+.subTitulo-fevereiro {
+    color: white;
+    text-align: justify;
+}
+
+.fevereiro-roxo {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none
+}
+
+.btn {
+    text-decoration: none !important; 
+}
+
+.btn:hover, .btn:focus {
+    text-decoration: none !important;
+}
+
 button.btn {
-    background-color:#6f56d0;
+    background-color:#9aabff;
+    color: white;
 }
 
 div, ajuster-cor {
@@ -25,11 +48,11 @@ div, ajuster-cor {
   }
 
 .bg {
-    background-color: #b3c5ef52;
+    background-color: #707fc7;
 }
 
 .navbar  {
-    background-color:#91A9E1;
+    background-color:#707fc7;
 }
 
 .page_footer {
