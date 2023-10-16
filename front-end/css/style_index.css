@@ -9,16 +9,40 @@
 
 .banco-memoria {
     text-align: center;
+    color: white;
 }
 
 .conteudo-alzheimer{
+    color: white;
     font-size: 20px;
     text-align: justify;
 }
+ 
+.poema-Memoria {
+    color: black;
+}
 
-.subTitulo-fevereiro {
+.fundo-memoria {
+    background-color: #707fc7;
+}
+
+.citacao-filme {
+    color: black;
+}
+
+.subTitulo-fevereiro{
     color: white;
     text-align: justify;
+}
+
+.subTitulo-Memoria{
+    width: 60%;            /* Centraliza o contêiner na página */
+    text-align: justify;
+    color: black;
+}
+
+.banco-Memoria {
+    background-color: white;
 }
 
 .fevereiro-roxo {
@@ -43,8 +67,8 @@ button.btn {
     color: white;
 }
 
-div, ajuster-cor {
-    color: black;
+.ajuster-cor {
+    color: white;
   }
 
 .bg {
@@ -69,7 +93,7 @@ footer a {
 .rodape_index {
     position:relative;
     bottom:-16px;
-    background-color:#799ae5;
+    background-color:#707fc7;
     text-align: center;
     color: #fff;
     padding: 30px;
