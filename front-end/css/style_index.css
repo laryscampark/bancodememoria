@@ -12,6 +12,19 @@
     color: white;
 }
 
+.subtituloLema{
+    text-align: center;
+    color: black;
+    
+}
+
+.subTexto {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+    
+
 .conteudo-alzheimer{
     color: white;
     font-size: 20px;
