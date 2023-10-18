@@ -15,7 +15,21 @@
 .subtituloLema{
     text-align: center;
     color: black;
-    
+    font-size: 28px;
+}
+
+.subtitulolema {
+    text-align: center;
+    font-size: 20px;
+}
+
+.sintomasAlheimer {
+    width: 60%;
+    display: block;
+    float: left;
+    position:relative;
+    left:500px;
+    bottom:166px;
 }
 
 .subTexto {
@@ -115,4 +129,19 @@ footer a {
 .desenvolvedora{
     position:relative;
     background-color:#aab9fc;
+}
+
+#contact .mx-auto h5{
+    position:relative;
+    bottom:-25px;
+}
+   
+   /* List Item */
+.mx-auto li{
+    position:relative;
+    bottom:-62px;
+}
+
+.list-unstyled a{
+    color: black;
 }
