@@ -211,7 +211,7 @@ select:hover {
 
 
 .gerenciador {
-    background-color: #B5BDE6;
+    background-color: #91A9E1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ select:hover {
 
 section {
     padding: 45px;
-    background-color: #C2CBF9;
+    background-color: #7796DE;
     width: 500px;
     border-radius: 15px;
     display: flex;
@@ -331,7 +331,7 @@ a.icone {
 
 
 button.btn {
-    background-color:#6f56d0;
+    background-color:#91A9E1;
     width: 20%
 }
 
