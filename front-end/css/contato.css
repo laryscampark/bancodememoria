@@ -7,9 +7,39 @@
     font-family: 'Roboto';
 }
 
+#home .d-sm-flex div{
+  position:relative;
+  left:-144px;
+ }
+ 
+ /* Image */
+ .d-sm-flex a img{
+  position:relative;
+  left:-119px;
+ }
+ 
+
 .titulo {
   color: white;
   text-align: center;
+}
+
+.caixa-secao {
+  padding: 45px;
+  background-color: #91A9E1;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  box-shadow: 2px 15px 20px rgba(61, 61, 61, .4);
+  padding-top:40px;
+  position:relative;
+  left:836px;
+  top:57px;
 }
 
 .contact-form {
@@ -27,7 +57,7 @@ body {
 }
 
 button.btn {
-    background-color:#6f56d0;
+    background-color:#7796DE;
 }
 
 .bg {
@@ -60,15 +90,22 @@ footer {
     box-sizing: border-box;
 }
 
-.retorno_agradecimento {
-  position:relative;
-  width: 65%;
+.section-agradecimento img{
+    position:relative;
+    left:600px;
 }
 
+.retorno_agradecimento {
+  width: 800px;
+}
 .container_agradecimento {
   position: relative;
   align-items: center;
   justify-columns: center;
   color: #fff;
-  left:189px;
 }
+
+.subTituloContato {
+  text-align: center;
+}
+

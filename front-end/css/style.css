@@ -11,6 +11,10 @@ body {
     background-color:#7796DE;
 }
 
+.rolagem {
+    overflow-y: hidden;  
+}
+
 main {
     background-color: #FFF;
     border-radius: 8px;
