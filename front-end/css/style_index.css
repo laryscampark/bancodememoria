@@ -145,3 +145,8 @@ footer a {
 .list-unstyled a{
     color: black;
 }
+
+.sintomas-Alzheimer .d-sm-flex > div{
+    position:relative;
+    left:850px;
+}
