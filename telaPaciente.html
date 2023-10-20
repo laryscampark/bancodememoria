@@ -7,60 +7,57 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./front-end/img/cerebro.png" type="image/x-icon">
-    <link rel="stylesheet" href="./front-end/css/cadastroPaciente.css">
-    <title>Cadastro Paciente</title>
+    <link rel="shortcut icon" href="./front-end/img/cuidador.png" type="image/x-icon">
+    <link rel="stylesheet" href="./front-end/css/cadastroCuidador.css">
+    <title>Cadastro Cuidador</title>
 </head>
 
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="./front-end/img/paciente.svg" alt="">
+            <img src="./front-end/img/cuidador.png" alt="">
         </div>
         <div class="form">
-            <form action="/cadastro" method="post">
+            <form action="#">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre Paciente</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="./telaRelatório.html" target="_blank">Listar Dados</a></button>&nbsp;
-                        <button type="button" class="btn botaoLogin"><a class="icone" href="/telaGerenciada.html"
-                                target="_blank"><i class="bi bi-arrow-counterclockwise"></i></a></button>
+                        <button><a href="#">Entrar</a></button>&nbsp;
+                        <button type="button" class="btn botaoLogin"><a class="icone" href="/login.html"><i class="bi bi-arrow-counterclockwise"></i></a></button>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="nome_pac">Nome Completo</label>
-                        <input id="nome_pac" type="text" name="nome_pac"
-                            placeholder="Digite seu nome completo">
+                        <label for="nome_paciente">Primeiro Nome</label>
+                        <input id="nome_paciente" type="text" name="nome_paciente" placeholder="Digite seu primeiro nome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="data_nasc_pac">Data Nascimento</label>
-                        <input id="data_nasc_pac" type="date" name="data_nasc_pac"
-                            placeholder="Informe sua data de nascimento">
+                        <label for="data_nascimento">Data Nascimento</label>
+                        <input id="data_nascimento" type="date" name="data_nascimento" placeholder="Informe sua data de nascimento" required>
                     </div>
                     <div class="input-box">
-                        <label for="cpf_pac">CPF</label>
-                        <input id="cpf_pac" type="text" name="cpf_pac" placeholder="xxx.xxx.xxx-xx">
-                    </div>
-
-                    <div class="input-box">
-                        <label for="email_pac">E-mail</label>
-                        <input id="email_pac" type="mailto" name="email_pac" placeholder="teste@mail.com">
+                        <label for="email">CPF</label>
+                        <input id="text" type="text" name="text" placeholder="xxx.xxx.xxx-xx" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="celular_pac">Telefone</label>
-                        <input id="celular_pac" type="tel" name="celular_pac" placeholder="(xx) xxxx-xxxx">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="mailto" name="email" placeholder="teste@mail.com" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
 
                     <div class="input-box">
-                        <label for="endereco_pac">Endereco</label>
-                        <input id="endereco_pac" type="text" placeholder="Rua nova paz">
+                        <label for="endereco">Endereco</label>
+                        <input id="endereco" type="text" placeholder="Rua nova paz" required>
                     </div>
 
                 </div>
@@ -72,34 +69,33 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input id="sexo_pac" type="radio" name="sexo_pac">
-                            <label for="sexo_pac">Feminino</label>
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="sexo_pac" type="radio" name="sexo_pac">
-                            <label for="sexo_pac">Masculino</label>
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="sexo_pac" type="radio" name="sexo_pac">
-                            <label for="sexo_pac">Outros</label>
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="sexo_pac" type="radio" name="sexo_pac">
-                            <label for="sexo_pac">Prefiro não dizer</label>
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit">Envie</button>
+                    <button><a href="#">Continuar</a> </button>
                 </div>
             </form>
         </div>
     </div>
-    <script src="./pacientes.js"></script>
 </body>
 
 </html>
