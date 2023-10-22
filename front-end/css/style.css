@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter',;
 }
 
 body {
@@ -84,7 +83,7 @@ select {
     border-radius: 8px;
     font-weight: 600;
     text-transform: capitalize;
-    background-color: #8C7FBA;
+    background-color: #91A9E1;
 }
 
 select:hover {
@@ -103,12 +102,12 @@ select:hover {
 }
 
 .btn-action:nth-child(1) {
-    background-color: #54A96E;
+    background-color: #707fc7;
     margin-right: 5px;
 }
 
 .btn-action:nth-child(2) {
-    background-color: #C84A4A;
+    background-color: #ffc107d9;
 }
 
 .main-login {
