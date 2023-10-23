@@ -1,5 +1,8 @@
 const cadastrarPaciente = document.getElementById('cadastroPaciente')
 
+
+
+
 let formData = new FormData();
 
 cadastrarPaciente.addEventListener('submit', event => {
