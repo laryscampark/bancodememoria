@@ -160,6 +160,7 @@ body {
 
 .continue-button button:hover {
     background-color: #6b63fff1;
+    color: white;
 }
 
 .continue-button button a {
